@@ -92,9 +92,14 @@ main button {
 }
 .Success-message {
   display: none;
+  flex-flow: column;
+  padding: 40px;
+  & img {
+    width: 70px;
+  }
   & h2 {
     color: hsl(234, 29%, 20%);
-    font-size: xxx-large;
+    font-size: 60px;
     width: 350px;
     margin: 20px 0;
   }
@@ -207,20 +212,20 @@ main button {
     height: 57%;
   }
   .Success-message {
-    /* display: flex !important; */
     align-items: center;
     justify-content: center;
     flex-flow: column;
     text-align: center;
     & h2 {
       width: 280px;
+      font-size: 55px;
     }
     & p {
-      width: 90%;
+      width: 100%;
     }
     & button {
       width: 80%;
-      margin-top: 290px;
+      margin-top: 180px;
       margin-bottom: -215px;
     }
   }
